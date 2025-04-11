@@ -27,7 +27,6 @@
 
     <!-- Стандартні favicon -->
     <link rel="icon" href="../assets/favicons/favicon.ico" type="image/x-icon">
-
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="48x48" href="../assets/favicons/favicon-48x48.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicons/favicon-96x96.png">
@@ -51,20 +50,22 @@
 </head>
 
 <body>
-    <header>
+    <header role="banner">
         <h1>Bugtracker</h1>
         <p>Лендінг для бакалаврської роботи</p>
+        <!-- Навігацію можна додати пізніше тут як <nav role="navigation"> -->
     </header>
 
-    <main>
-        <section>
-            <h2>Про проєкт</h2>
+    <main role="main">
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">Про проєкт</h2>
             <p>Це система для відстеження помилок та керування завданнями.</p>
         </section>
     </main>
 
-    <footer>
+    <footer id="contacts" role="contentinfo">
         <p>&copy; 2025 Bugtracker. Усі права захищені.</p>
+        <!-- <p>Контакт: <a href="mailto:твоя@пошта">твоя@пошта</a></p> -->
     </footer>
 </body>
 
