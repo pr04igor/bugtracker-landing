@@ -57,7 +57,6 @@
         <nav role="navigation" aria-label="Основна навігація">
             <ul>
                 <li><a href="#about" aria-label="Перейти до секції Про проєкт">Про проєкт</a></li>
-                <!-- Майбутні пункти меню можна додати тут -->
                 <li><a href="#contacts" aria-label="Перейти до секції Контакти">Контакти</a></li>
             </ul>
         </nav>
@@ -66,14 +65,34 @@
     <main role="main">
         <section id="about" aria-labelledby="about-title">
             <h2 id="about-title">Про проєкт</h2>
-            <p>Це система для відстеження помилок та керування завданнями.</p>
+            <h3>Мета</h3>
+            <p>Покращити керування завданнями та відстеження багів під час розробки.</p>
+
+            <h3>Основні завдання</h3>
+            <ul>
+                <li>Створити інтерфейс для керування завданнями</li>
+                <li>Забезпечити можливість додавання та відстеження помилок</li>
+                <li>Забезпечити багатокористувацький доступ</li>
+            </ul>
             <img src="assets/images/diagram.png" alt="Ілюстрація принципу роботи багтрекера">
+        </section>
+
+        <section id="methodology" aria-labelledby="methodology-title">
+            <h2 id="methodology-title">Методологія</h2>
+            <p>Адаптивна верстка, GitFlow-стратегія, інклюзивність через ARIA та семантичний HTML.</p>
+        </section>
+
+        <section id="results" aria-labelledby="results-title">
+            <h2 id="results-title">Очікувані результати</h2>
+            <p>Функціональний лендінг з демонстрацією інженерної підготовки та відповідністю вимогам SEO й доступності.
+            </p>
         </section>
     </main>
 
     <footer id="contacts" role="contentinfo">
+        <h2>Контакти</h2>
         <p>&copy; 2025 Bugtracker. Усі права захищені.</p>
-        <!-- <p>Контакт: <a href="mailto:твоя@пошта">твоя@пошта</a></p> -->
+        <p>Контакт: <a href="mailto:твоя@пошта">твоя@пошта</a></p>
     </footer>
 </body>
 
