@@ -1,0 +1,6 @@
+# robots.txt for bachelor-landing GitHub Pages
+
+User-agent: *
+Disallow:
+
+Sitemap: https://pr04igor.github.io/bugtracker-landing/sitemap.xml
