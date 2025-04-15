@@ -253,3 +253,75 @@ body {
     /* ніжний теплий бежевий */
     padding: 1em;
 }
+
+.keywords-section {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #eef6fb;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.keywords-list {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.7em;
+}
+
+.keywords-list span {
+    background-color: #d2e9f7;
+    color: #005a99;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 0.95em;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+body {
+    color: #111;
+}
+
+.subtitle,
+footer,
+.illustration-caption {
+    color: #444;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+
+body {
+    font-size: 1rem;
+    /* або 16px */
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p.lead {
+    font-size: 1.125rem;
+}
+
+main,
+.intro-block,
+.keywords-section {
+    max-width: 700px;
+    line-height: 1.7;
+}

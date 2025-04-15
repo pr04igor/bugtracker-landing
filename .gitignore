@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+dist/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Cache
+.cache/
+*.tmp
+*.bak
+
+# Env files (якщо будуть)
+.env
+.env.local
+
+# Other
+*.zip
+*.rar
