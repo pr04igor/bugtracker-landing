@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bugtracker - Лендінг</title>
+    <title>Bugtracker - LANDING</title>
 
     <!-- SEO базові метатеги -->
     <meta name="description"
@@ -16,7 +16,7 @@
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph для соцмереж -->
-    <meta property="og:title" content="Bugtracker - Лендінг">
+    <meta property="og:title" content="Bugtracker - LANDING">
     <!--meta property="og:title" content="Бакалаврська робота"-->
     <meta property="og:description" content="Лендінг для (представлення) бакалаврської роботи(.)">
     <meta property="og:type" content="website">
@@ -71,24 +71,45 @@
 
 <body>
     <header role="banner">
-        <h1>Bugtracker</h1>
-        <p>Лендінг для бакалаврської роботи</p>
-        <p class="lead">Цей проєкт — це вебзастосунок для відстеження помилок, створений для допомоги командам у
-            керуванні та
-            контролі за
-            програмними помилками. Користувачі можуть реєструватися, входити в систему, додавати баги та відстежувати
-            їхній
-            статус.</p>
-        <p class="lead">This project is a web-based bug tracking system designed to help teams manage and track software
-            issues
-            efficiently.
-            It allows users to register, log in, add bugs, and track their status.</p>
+        <div class="header-top">
+            <a href="https://sumdu.edu.ua/uk/" target="_blank" class="logo-left" title="Сумський державний університет">
+                <img src="../assets/img/logo-sumdu.svg" alt="Sumy State University: СумДУ">
+            </a>
 
-        <img src="assets/images/logo.png" alt="Логотип Bugtracker">
+            <div class="header-center">
+                <h1>Bugtracker</h1>
+                <p class="subtitle">Лендінг для бакалаврської роботи</p>
+            </div>
+
+            <div class="logo-right">
+                <img src="../assets/favicons/favicon.svg" alt="Логотип Bugtracker" class="tracker-logo">
+            </div>
+        </div>
+
+        <div class="intro-block">
+            <p class="lead">
+                <strong>
+                    Цей проєкт — це вебзастосунок для відстеження помилок, створений для допомоги командам у керуванні
+                    та
+                    контролі
+                    за програмними помилками.
+                    Користувачі можуть реєструватися, входити в систему, додавати баги та відстежувати їхній статус.
+                </strong>
+            </p>
+            <p class="lead">
+                <em>
+                    This project is a web-based bug tracking system designed to help teams manage and track software
+                    issues
+                    efficiently.
+                    It allows users to register, log in, add bugs, and track their status.
+                </em>
+            </p>
+        </div>
+
         <nav role="navigation" aria-label="Основна навігація">
             <ul>
-                <li><a href="#about" aria-label="Перейти до секції Про проєкт">Про проєкт</a></li>
-                <li><a href="#contacts" aria-label="Перейти до секції Контакти">Контакти</a></li>
+                <li><a href="#about">Про проєкт</a></li>
+                <li><a href="#contacts">Контакти</a></li>
             </ul>
         </nav>
     </header>
@@ -125,7 +146,16 @@
                 <li>Впровадити базову адміністративну панель</li>
                 <li>Реалізувати базові механізми безпеки та резервного копіювання</li>
             </ul>
-            <img src="assets/images/diagram.png" alt="Ілюстрація принципу роботи багтрекера">
+            <section id="illustration" style="text-align: center;">
+                <img src="../assets/img/bugtracker-workflow.png" srcset="
+                  ../assets/img/bugtracker-workflow-small.png 600w,
+                  ../assets/img/bugtracker-workflow-medium.png 900w,
+                  ../assets/img/bugtracker-workflow.png 1200w
+                " sizes="(max-width: 600px) 100vw, 
+                       (max-width: 900px) 80vw, 
+                       60vw" alt="Ілюстрація принципу роботи багтрекера" class="illustration-img" />
+                <p class="illustration-caption">Ілюстрація принципу роботи багтрекера</p>
+            </section>
         </section>
 
         <section id="methodology" aria-labelledby="methodology-title">
